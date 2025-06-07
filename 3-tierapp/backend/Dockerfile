@@ -4,4 +4,4 @@ COPY requirement.txt ./
 RUN pip install -r requirement.txt
 COPY . ./app
 EXPOSE 90
-CMD["python", "pip"]
+CMD ["python", "pip"]
